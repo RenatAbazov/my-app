@@ -5,7 +5,7 @@ import Footer from "../Footer";
 function About () {
   return(
     <>
-      <h1 className='about'> About </h1>
+      <h1 className='about'> About Me </h1>
       <Footer />
     </>
   )
