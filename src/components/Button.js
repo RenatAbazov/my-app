@@ -1,15 +1,3 @@
-// import React from 'react';
-// import './Button.css';
-// import { Link } from 'react-router-dom';
-
-// export function Button() {
-//   return (
-//     <Link to='sign-up'>
-//       <button className='btn'>Sign Up</button>
-//     </Link>
-//   );
-// }
-
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
@@ -42,8 +30,4 @@ export const Button = ({
       </button>
     </Link>
   );
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 12f0bd56dbaf258eac8ed260f89f3bf1f21596c8
