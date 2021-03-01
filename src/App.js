@@ -4,9 +4,9 @@ import Navbar from'./components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Products from './components/pages/Products';
+import Photos from './components/pages/Photos';
 import SignUp from './components/pages/SignUp';
-import logo from './Me3.png'
+
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={About}/>
-          <Route path='/products' component={Products} />
+          <Route path='/photos' component={Photos} />
           <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>

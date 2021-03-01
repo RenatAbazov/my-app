@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
+import logo from '../Images/Me3.png';
 
 
 function Navbar() {
@@ -19,7 +19,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-             <img src="https://i.imgur.com/edbOelX.png" height="40px"/>
+             <img src={logo} className="nav-image" height="40px"/>
              Renat Abazov
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -28,7 +28,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/photos'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

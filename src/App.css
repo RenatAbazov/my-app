@@ -15,23 +15,20 @@
 }
 
 .about {
+  flex: 1 1 auto;
+  min-height: 500px;
+  margin: 0 15% 20px 15%;
+}
+h1{
   font-size: 70px;
 }
-
-.products {
-  background-image: url('./images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.aboutMeText{
+  margin-top: 10px;
 }
-
-.sign-up {
-  background-image: url('./images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.myPersonalImage{
+  float:left;
+  width: 40%;
+  min-width:200px;
+  max-width: 350px;
+  margin-right: 20px;
 }
